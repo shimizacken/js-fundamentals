@@ -1,0 +1,35 @@
+{
+  "name": "js-fundamentals",
+  "version": "1.0.0",
+  "description": "JavaScript fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimizacken/js-fundamentals.git"
+  },
+  "keywords": [
+    "javascript",
+    "proto",
+    "prototype",
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimizacken/js-fundamentals/issues"
+  },
+  "homepage": "https://github.com/shimizacken/js-fundamentals#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
